@@ -4,6 +4,6 @@ function paragraphSelector(){
 }
 
 function lastImageSelector(){
-  var image = $(`div img: last`);
+  var image = $(`div img: :last-of-type`);
   return image;
 }
