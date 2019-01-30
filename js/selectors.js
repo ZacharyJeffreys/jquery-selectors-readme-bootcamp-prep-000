@@ -4,7 +4,7 @@ function paragraphSelector(){
 }
 
 function lastImageSelector(){
-  var image = $(`img`);
+  var image = $(`#img`);
   const index = image.length - 1 
   return image[index];
 }
